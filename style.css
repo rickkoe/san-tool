@@ -1,0 +1,46 @@
+#hero_div {
+	color: rgb(0, 0, 255);
+	top: 120px;
+	left: 120px;
+	background-color: rgba(30,20,160, .3)
+	
+}
+
+.person::before {
+	border: 1px solid rgba(0,0,0,1);
+	content: "";
+	display: block;
+	height: 10px;
+	left: 0;
+	position: absolute;
+	top: -12px;
+	width: 10px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	background-color: rgba(100,100,100,1)
+	
+}
+.person::after {
+	border: 1px solid rgba(0,0,0,1);
+	content: "";
+	display: block;
+	height: 10px;
+	right: 0;
+	position: absolute;
+	top: -12px;
+	width: 10px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	background-color: rgba(100,100,100,1)
+	
+}
+.person {
+	transition: all 1s;
+	border: 1px solid rgb(255,0,0);
+	width: 42px;
+	height: 64px;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 64px;
+	position:  absolute;
+}
